@@ -1,4 +1,4 @@
-|S. No.| Table of contents|
+|Sr. No.| Table of contents|
 |:---:|-------------------|
 | 1.| [Introduction](#Introduction) 
 | 2.| [What is Licence Scanning?](#What-is-Licence-Scanning?)
