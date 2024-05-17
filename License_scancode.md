@@ -2,22 +2,17 @@
 
 ---
 
-## What is Licence Scanning in CI checks?
+## What is Licence Scanning ?
 
-License scanning in CI checks refers to the process of automatically analyzing the licenses of third-party dependencies used in a software project as part of the Continuous Integration (CI) pipeline. This involves scanning the source code and dependencies to detect any open-source licenses or proprietary licenses associated with the software components. The purpose is to ensure compliance with licensing requirements and identify any potential licensing conflicts or issues early in the development process. By integrating license scanning into CI checks, developers can mitigate legal risks, maintain license compliance, and streamline the management of software licenses.
+Open source license scanning refers to the process of analyzing software dependencies within a project to identify and manage the licenses associated with each component. The goal is to ensure that the project complies with the terms and conditions set forth by the licenses of its constituent parts. This practice is essential for both legal compliance and maintaining a healthy and sustainable open source ecosystem.
 
 
----
-
-## Why Licence Scanning is required as a CI checks?
-
-| **Aspect**                  | **Explanation**                                                                                   |
-|:-----------------------------:|---------------------------------------------------------------------------------------------------|
-| **Legal Compliance**        | Ensures that the application code follows the rules of licenses attached to third-party components.|
-| **Risk Mitigation**         | Identifies and addresses potential licensing issues early to avoid legal disputes and delays.     |
-| **Dependency Management**   | Helps keep track of third-party dependencies and ensures they align with the project's licenses.  |
-| **Transparency & Accountability** | Provides a clear view of the project's licensing status, promoting responsibility and awareness.|
-| **Security Considerations** | Enhances application security by identifying vulnerabilities and prioritizing security updates.  |
+## Benefits of Open Source License Scanning:
+Legal Compliance: Mitigate legal risks by ensuring that your project complies with the terms and conditions of the open source licenses associated with its dependencies. This helps avoid potential lawsuits and legal challenges.
+Risk Mitigation: Identify and mitigate potential security and compliance risks associated with using open source components. Proactively addressing these issues protects the project from vulnerabilities and ensures a more robust and secure software ecosystem.
+Efficient Resource Management: Understand the licensing landscape of your project to make informed decisions about resource allocation. This includes selecting components that align with your project's licensing policies and avoiding unnecessary complications.
+Community Engagement: Foster positive relationships with the open source community by respecting and complying with the licenses of the software you use. This encourages collaboration, transparency, and mutual respect within the broader developer community.
+Enhanced Reputation: Demonstrate a commitment to ethical and legal software development practices, enhancing your project's reputation among users, contributors, and potential collaborators.
 
 
 ---
