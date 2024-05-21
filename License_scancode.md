@@ -52,7 +52,7 @@ Enhanced Reputation: Demonstrate a commitment to ethical and legal software deve
 ---
 
 
-## Imp Difference
+## Detail Comparison
 
 
 # Comparison between License Finder and ScanCode
