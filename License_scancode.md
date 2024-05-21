@@ -51,6 +51,79 @@ Enhanced Reputation: Demonstrate a commitment to ethical and legal software deve
 
 ---
 
+
+## Imp Difference
+
+
+# Comparison between License Finder and ScanCode
+
+## License Finder
+
+### Purpose and Scope
+- Designed to help developers manage and comply with open source licenses in their projects.
+- Primarily focused on identifying licenses for project dependencies.
+
+### Functionality
+- Scans project dependencies to identify their licenses.
+- Helps ensure that all dependencies are compliant with the desired licensing policy.
+
+### Key Features
+- Automatic detection of licenses for project dependencies.
+- Supports multiple package managers like npm, Bundler, Maven, and more.
+- Generates reports on detected licenses.
+- Allows customization of license approval policies.
+- Command-line interface (CLI) for easy integration into CI/CD pipelines.
+
+### Strengths
+- Simplifies the process of managing licenses for project dependencies.
+- Easy integration with common development workflows.
+- Focuses on ensuring compliance with licensing policies set by the user.
+
+## ScanCode
+
+### Purpose and Scope
+- Focused on identifying licenses, copyrights, and package information in codebases.
+- Provides detailed insights into licenses and copyrights within the entire codebase, not just dependencies.
+
+### Functionality
+- Scans directories, files, and code snippets to detect licenses.
+- Provides comprehensive information about license types and terms.
+
+### Key Features
+- Extensive and regularly updated license detection database.
+- Detailed attribution and origin information.
+- Can detect not only licenses but also copyrights and package metadata.
+- Open-source tool with a high level of customization.
+- Detailed and comprehensive reports.
+
+### Strengths
+- Provides deep and granular insights into all aspects of licenses and copyrights in the codebase.
+- Suitable for thorough audits and compliance checks.
+- Open-source, allowing for transparency and community contributions.
+
+## Key Differences
+
+### Scope and Focus
+- **License Finder**: Primarily focuses on managing licenses for project dependencies and ensuring they comply with licensing policies.
+- **ScanCode**: Offers a comprehensive scan of the entire codebase, providing detailed license, copyright, and package information.
+
+### Detail and Depth
+- **License Finder**: Provides a straightforward way to manage and report on licenses for dependencies.
+- **ScanCode**: Delivers in-depth and detailed information suitable for thorough compliance audits.
+
+### Integration
+- **License Finder**: Designed to integrate easily with CI/CD pipelines and development workflows, especially with its CLI.
+- **ScanCode**: While it can also integrate into workflows, its use is more suited for detailed analysis and audits rather than routine dependency management.
+
+### Customization and Open Source
+- **License Finder**: Provides some customization in terms of license policies but is more focused on practical application within development workflows.
+- **ScanCode**: Highly customizable due to its open-source nature, allowing for extensive modifications and use in various scenarios.
+
+### Conclusion
+**License Finder** is ideal for developers looking to manage and ensure compliance of project dependencies with minimal setup, focusing on practical and routine compliance management. **ScanCode**, on the other hand, is suited for those needing detailed and comprehensive analysis of licenses and copyrights across their entire codebase, making it a robust tool for thorough audits and compliance checks.
+
+---
+
 ## Why we use scancode instead of other tool
 
 ### Why Use ScanCode:
